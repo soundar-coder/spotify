@@ -1,0 +1,87 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: none;
+    color:white;
+}
+.salsa-regular {
+    font-family: "Salsa", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.spotify-firstpage{
+    background-color: black;
+    height: 600px;
+    width: 350px;
+    margin: 100px;
+}
+.first-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.setting-icon i{
+    font-size: 30px;
+    padding: 5px;
+}
+.recent-play{
+    padding: 10px;
+}
+.image-one{
+   
+    margin: 5px;
+    margin-left: 10px;
+    
+    flex-wrap: wrap;
+}
+
+
+.image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.made{
+    padding: 10px;
+    font-size: 25px;
+}
+.nav{
+    display: flex;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    justify-content: space-between;
+}
+.nav-home i{
+    font-size: 30px;
+}
+.search{
+    margin: 10px;
+    padding: 10px;
+}
+.input input{
+    height: 20px;
+    margin: 10px;
+    padding: 10px;
+    width: 85%;
+    color: black;
+    font-size: 20px;
+}
+.input input:hover{
+    outline: none;
+}
+.input input::placeholder{
+    color: black;
+}
+.con{
+    background-color: green;
+    color: white;
+    height: 30px;
+    width: 70px;
+    margin: 10px;
+    padding: 10px;
+}
+.full-serch{
+    display: flex;
+    flex-wrap: wrap;
+}
